@@ -1,0 +1,66 @@
+.global{
+
+    background: #F5FAFD;
+    max-width: auto;
+&-parent{
+
+    &-title{
+        font-size: 36px;
+
+    }
+  
+}
+&-colone{
+    margin-top: 30px;
+
+    &-block{
+     
+        height:200px;
+        background-color: white;
+        position: relative;
+        margin-left: 71px;
+        margin-right: 22px;
+        margin-bottom: 20px;
+        
+        &-imge{
+    margin-top:0px;
+            &::before{
+                content: '';
+              display:block;
+              width: 20px;
+              height: 20px;
+            background-image: url("/assets/image/localisation.svg");
+            background-repeat: no-repeat;
+        }
+        }
+     
+          
+        &-para{
+              width: 45%;
+        }
+        &-img{
+            position: absolute;
+            bottom:8px;
+            width: 30%;
+            margin-left: 8px;
+        }
+      
+      
+        &-spe{
+            position: absolute;
+            top:2px;
+            right:8px;
+            font-size: 8px;
+          
+          
+        }  
+    }
+       
+        
+    
+      
+   
+       
+    
+    }
+}

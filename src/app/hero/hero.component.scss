@@ -40,21 +40,10 @@
 
     }
 }
-.container{
-    display: flex;
-}
-.conta{
-padding-left: 5px;
-padding-top: 6px;
-width: 1136px;
-height: 100px !important;
-margin-top: 20px;
-margin-left: 141px;
-transform:translateY(-80px);
-background-color: white;
-justify-content: center;
-align-content: center;
 
+.conta{
+    background-color: white;
+    margin-top: -40px;
 
      &-sty{
          background-color:#184B95;

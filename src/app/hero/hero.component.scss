@@ -1,0 +1,74 @@
+.hero{
+    position:relative;
+    
+    img{
+        width: 100%;
+    }
+    &-desc{
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        left: 5%;
+        width: 679px;
+     
+        p{
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 70px;
+            letter-spacing: -1px;
+            color: #FFFFFF;
+            height: 210px;
+        }
+        span{
+            display: block;
+            width: 393px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 34px;
+            color: #FFFFFF;
+            &::after{
+                margin-top: 40px;
+                content: '';
+                display: block;
+                width: 15px;
+                height: 64px;
+                background-repeat: no-repeat;
+                background-image: url("/assets/image/flech-down.png");
+            }
+        }
+
+    }
+}
+.container{
+    display: flex;
+}
+.conta{
+padding-left: 5px;
+padding-top: 6px;
+width: 1136px;
+height: 100px !important;
+margin-top: 20px;
+margin-left: 141px;
+transform:translateY(-80px);
+background-color: white;
+justify-content: center;
+align-content: center;
+
+
+     &-sty{
+         background-color:#184B95;
+         border:solid 4px #184B95;
+         height: 88px;
+         width: 229px;
+         color: white;
+       
+         
+     }
+     &-larg{
+  width:700px;
+  margin-left:15px;
+ 
+    }
+
+}

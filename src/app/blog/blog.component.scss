@@ -1,0 +1,47 @@
+.parent{
+    
+
+&-blog{
+
+margin-top:78px;
+
+    &-title{
+          font-size: 30px;
+          color: #1D293F;
+          margin-left:186px;
+          margin-top: 53px;
+          width: 42%;
+
+             &-paragraphe{
+                margin-top: 10px;
+                margin-left: 185px;
+                width: 50%;
+                 font-size: 10px;
+                 color: #1D293F;
+                 line-height: 20px;
+        
+        }
+    }
+    &-button{
+        margin-left: 184px;
+        margin-top: 30px;
+        width: 134px;
+        height: 41px;
+        color: white;
+        background-color: #75B72D;
+        border-radius: 0px;
+    }
+    
+
+}
+
+&-image{
+    margin-top:35px;
+    &-detail{
+        background-image: url("/assests/image/Group206.png");
+    }
+}
+
+
+
+}

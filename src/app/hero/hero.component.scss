@@ -31,10 +31,11 @@
                 margin-top: 40px;
                 content: '';
                 display: block;
-                width: 15px;
+                width: 30px;
                 height: 64px;
                 background-repeat: no-repeat;
-                background-image: url("/assets/image/flech-down.png");
+                background-image: url( "/assets/image/flech-down.svg" );
+                color: red;
             }
         }
 

@@ -3,21 +3,30 @@
     padding-left: 83px;
     padding-right: 40px;
 
+  
     &-parents{
-
+        
        &-titles{
 
             font-size: 40px;
              margin-top: 40px;
        }}
-       &-child{
+       &-childe{
              
               &-blocke{
+                width: 75%;
+                background-color: #F5FAFD;
+               
 
+                &-images{
+                    width: 100%;
+                    margin-top:0px;
+                }
 
                    &-smallAnnotations{
-                       font-size: 12px;
-                       background:rgba(16, 66, 253, 0.15)
+                       font-size: 15px;
+                       background:rgba(16, 66, 253, 0.15);
+                       padding-top:8px;
                      
            }
                   &-paragraphes{
@@ -27,5 +36,17 @@
                      
            }
        }
+    }
+    &-bottom{
+        &-buttons{
+        border: solid 4px rgba(24, 75, 148, 1);
+       background-color:rgba(24, 75, 148, 1);
+       margin-top: 47px;
+       margin-left: 433px;
+       height: 47px;
+       text-align: center;
+        color: white;
+        width: 185px;
+    }
     }
 }

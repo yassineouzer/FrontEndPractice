@@ -12,6 +12,10 @@ margin-top:78px;
           margin-top: 53px;
           width: 42%;
 
+          span{
+              color: green;
+          }
+
              p{
                 margin-top: 10px;
                 margin-left: 2px;
@@ -25,7 +29,8 @@ margin-top:78px;
     button{
         margin-left: 184px;
         margin-top: 30px;
-        width: 134px;
+        padding: 6px 20px;
+        text-align: center;
         height: 41px;
         color: white;
         background-color: #75B72D;

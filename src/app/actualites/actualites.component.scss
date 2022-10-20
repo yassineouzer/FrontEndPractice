@@ -20,7 +20,7 @@
             
                
 
-                &-images{
+                 img{
                     width: 100%;
                     margin-top:0px;
                 }
@@ -45,15 +45,17 @@
        }
     }
     &-bottom{
-        &-buttons{
+
+        button{
+
         border: solid 4px rgba(24, 75, 148, 1);
        background-color:rgba(24, 75, 148, 1);
        margin-top: 47px;
        margin-left: 433px;
-       height: 47px;
+       padding: 6px 13px;
        text-align: center;
         color: white;
-        width: 185px;
+       
     }
     }
 }

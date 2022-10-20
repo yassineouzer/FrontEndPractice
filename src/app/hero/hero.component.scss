@@ -46,7 +46,7 @@
     background-color: white;
     margin-top: -40px;
 
-     &-sty{
+    button{
          background-color:#184B95;
          border:solid 4px #184B95;
          height: 88px;
@@ -55,9 +55,11 @@
        
          
      }
-     &-larg{
-  width:700px;
-  margin-left:15px;
+
+     input[type=text] {
+         
+       width:700px;
+       margin-left:15px;
  
     }
 

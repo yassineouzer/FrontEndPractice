@@ -14,7 +14,7 @@
 }
 &-parent{
 
-    &-title{
+   h3{
         font-size: 36px;
 
     }
@@ -32,7 +32,7 @@
         margin-right: 22px;
         margin-bottom: 20px;
         
-        &-imge{
+        span:first-child{
     margin-top:0px;
     font-size: 10px;
     
@@ -48,10 +48,10 @@
         }
      
           
-        &-para{
+        p{
               width: 45%;
         }
-        &-img{
+      img{
             position: absolute;
             bottom:8px;
             width: 30%;
@@ -59,7 +59,7 @@
         }
       
       
-        &-spe{
+        span:nth-child(2){
             position: absolute;
             top:2px;
             right:8px;

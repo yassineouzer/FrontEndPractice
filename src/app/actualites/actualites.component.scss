@@ -15,6 +15,7 @@
        &-childe{
              
               &-blocke{
+
                 width: 75%;
                 background-color: #F5FAFD;
                 height: 109%;
@@ -22,18 +23,24 @@
                
 
                  img{
+
                     width: 100%;
                     margin-top:0px;
                 }
 
                    span{
-                       font-size: 15px;
+
+                       font-size: 13px;
                        background:rgba(16, 66, 253, 0.15);
                        display: block;
                        margin-top: 16px;
                        margin-bottom: 17px;
-                       width: 29%;
+                       width: 33%;
                        margin-left: 13px;
+                       text-align: center;
+                       height: 8%;
+                       border-radius: 8px;
+                       padding-top: 5px;
                      
            }
                     p{
@@ -45,16 +52,17 @@
            }
        }
     }
+
     &-bottom{
 
         button{
 
         border: solid 4px rgba(24, 75, 148, 1);
-       background-color:rgba(24, 75, 148, 1);
-       margin-top: 47px;
-       margin-left: 433px;
-       padding: 6px 13px;
-       text-align: center;
+        background-color:rgba(24, 75, 148, 1);
+        margin-top: 47px;
+        margin-left: 433px;
+        padding: 6px 13px;
+        text-align: center;
         color: white;
        
     }

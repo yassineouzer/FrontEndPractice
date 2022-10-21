@@ -6,6 +6,7 @@
 margin-top:78px;
 
     h3{
+
           font-size: 30px;
           color: #1D293F;
           margin-left:186px;
@@ -13,6 +14,7 @@ margin-top:78px;
           width: 42%;
 
           span{
+
               color: green;
           }
 
@@ -27,11 +29,11 @@ margin-top:78px;
         }
     }
     button{
+
         margin-left: 184px;
         margin-top: 30px;
-        padding: 6px 20px;
+        padding: 12px 20px;
         text-align: center;
-        height: 41px;
         color: white;
         background-color: #75B72D;
         border-radius: 10px;
@@ -42,7 +44,9 @@ margin-top:78px;
 
 &-image{
     margin-top:35px;
+
     &-detail{
+
         background-image: url("/assests/image/Group206.png");
     }
 }

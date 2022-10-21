@@ -24,8 +24,10 @@
         }     
 
 
-         &-block{
+         
 
+       
+        &-block{
               background-color: white;
               height: 177px;
               width: 250px;
@@ -46,7 +48,17 @@
 }
 
   
-   
- }}
 
+ @media screen and (max-width:768px) {
 
+  &-block{
+
+      height: 171px !important;
+      width: 200px !important;
+
+     
+    }
+       
+  }
+
+}}

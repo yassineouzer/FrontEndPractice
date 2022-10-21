@@ -50,8 +50,8 @@
                      margin-left: 13px;
                      
            }
+        }
        }
-    }
 
     &-bottom{
 
@@ -67,4 +67,33 @@
        
     }
     }
-}
+
+
+@media screen and (max-width:768px) {
+
+    &-childe{
+    &-blocke{
+  
+      span{
+          width: 59% !important;
+          height: 12%;
+      }
+  
+       p{
+           width: 89%;
+       } }
+         
+    }
+       &-bottom{
+
+        button{
+
+        margin-top: 31px !important;
+        margin-left: 220px !important;
+       }
+    }
+
+     
+    }
+  } 
+

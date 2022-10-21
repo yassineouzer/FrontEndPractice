@@ -1,12 +1,17 @@
 .parent{
-    
+ 
 
 &-blog{
 
 margin-top:78px;
 
-    h3{
 
+
+
+
+
+
+        h3{
           font-size: 30px;
           color: #1D293F;
           margin-left:186px;
@@ -18,16 +23,18 @@ margin-top:78px;
               color: green;
           }
 
-             p{
+           p{
                 margin-top: 10px;
                 margin-left: 2px;
                 width: 100%;
-                 font-size: 10px;
-                 color: #1D293F;
+                font-size: 10px;
+                color: #1D293F;
                 
         
         }
-    }
+
+       
+      
     button{
 
         margin-left: 184px;
@@ -40,7 +47,7 @@ margin-top:78px;
     }
     
 
-}
+
 
 &-image{
     margin-top:35px;
@@ -51,6 +58,34 @@ margin-top:78px;
     }
 }
 
+}
+
+
+       
+  } }
+
+
+
+
+  @media screen and (max-width:768px) {
+
+    button{
+        font-size: 13px !important;
+        padding: 8px  20px;
+        text-align: center;
+        color: white;
+        background-color: #75B72D;
+         border-radius: 10px;
+         margin-left: 182px;
+         margin-top: 20px;
+    }
+    h3{
+        font-size: 16px !important;
+        color: red;
+    }
+       
+
 
 
 }
+

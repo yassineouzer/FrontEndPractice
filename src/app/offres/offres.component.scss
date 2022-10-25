@@ -64,4 +64,11 @@
                  
             }
         }
+@media screen  and (max-width:412px){
+    &-parent{
+        h3{
+            font-size:23px;
+        }
+    }
+}
     }

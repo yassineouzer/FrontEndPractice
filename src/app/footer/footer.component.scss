@@ -1,9 +1,7 @@
 .globales{
 background: #1D293F;
 margin-top:40px;
-height: 500px;
-padding-top: 70px;
-padding-left: 30px;
+padding: 40px 40px 80px 30px ;
 &-children{
     &-blockes{
        ul li{
@@ -13,7 +11,7 @@ padding-left: 30px;
         margin-left: 67px;
         margin-top: 17px;
         &.colored{
-            color: orangered;
+            color: red;
         }
        }
         a{
@@ -58,11 +56,29 @@ padding-left: 30px;
             margin-left: 90px;
         }
     }
-
 }
 
+   // responsive mobile
+    @media screen and (max-width:412px){
+      
+            &-blockes{ 
+                &-second{
+                    margin-left:12px !important;
+                    ul li{
+                        color:white;
+                    }
+                }
+                &-third{
+             margin-left:12px !important;
+             ul li{
+                 color:white;
+             }
+             
+            }}
+             
+ }
+
 
 
 }
-
 }

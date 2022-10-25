@@ -1,6 +1,7 @@
 
 .global{
-    height: 300px;
+     padding-top: 8px;
+     padding-bottom: 40px;
     background-color:  #F5FAFD;
       &-parent{
           padding-left: 31px;
@@ -14,9 +15,8 @@
         }     
         &-block{
               background-color: white;
-              height: 177px;
-              width: 250px;
               margin-left:40px;
+              padding: 20px 25px;
            p{
                   font-size: 10px;
                   margin-top:20px;
@@ -33,14 +33,18 @@
  @media screen and (max-width:768px) {
 
   &-block{
-      height: 171px !important;
-      width: 200px !important;
-
-     
+    padding: 20px 25px;  
     }
-   
-
     }
+//responsive mobile
+@media screen and (max-width:412px){
+  h3{
+    font-size: 16px;
+  }
+  &-block{
+    padding: 20px 25px;
+    margin-bottom: 18px;}
+}
        
   }
 

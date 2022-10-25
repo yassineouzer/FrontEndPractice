@@ -1,62 +1,42 @@
 .globale{
-
     padding-left: 83px;
     padding-right: 40px;
-
   
-    &-parents{
-        
+&-parents{
       h3{
-
-            font-size: 40px;
-             margin-top: 40px;
-       }}
-       
-       &-childe{
-             
-              &-blocke{
-
+        font-size: 40px;
+        margin-top: 40px;
+    }}
+        &-childe{
+            &-blocke{
+                display: flex;
+                flex-wrap: wrap;
                 width: 75%;
                 background-color: #F5FAFD;
                 height: 109%;
-            
-               
-
                  img{
-
-                    width: 100%;
-                    margin-top:0px;
-                }
-
-                   span{
-
+                     width: 100%;
+                    }
+            &-sousBlocke{
+                margin-left: 8px;
+                 span{
                        font-size: 13px;
                        background:rgba(16, 66, 253, 0.15);
                        display: block;
                        margin-top: 16px;
                        margin-bottom: 17px;
                        width: 33%;
-                       margin-left: 13px;
                        text-align: center;
-                       height: 8%;
-                       border-radius: 8px;
-                       padding-top: 5px;
-                     
-           }
+                       border-radius: 8px;   
+                     }
                     p{
-
                      font-size: 16px;
-                     width: 50%;
-                     margin-left: 13px;
-                     
-           }
+                     width: 50%;          
+           }}
         }
        }
-
-    &-bottom{
-
+        &-bottom{
         button{
-
         border: solid 4px rgba(24, 75, 148, 1);
         background-color:rgba(24, 75, 148, 1);
         margin-top: 47px;
@@ -67,27 +47,21 @@
        
     }
     }
-
-
 @media screen and (max-width:768px) {
-
+   
     &-childe{
     &-blocke{
-  
+        
       span{
           width: 59% !important;
-          height: 12%;
       }
-  
        p{
            width: 89%;
        } }
          
     }
        &-bottom{
-
         button{
-
         margin-top: 31px !important;
         margin-left: 220px !important;
        }

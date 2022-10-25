@@ -1,20 +1,21 @@
 .parent{
-
     background-color: #F5FAFD;
     height: 200px;
-
-    
-
     h3{
-
         margin-bottom: 60px;
         font-size: 36px;
     }
-
-
-    &-partenaire-logo{
-        
+    &-partenaire-logo{   
         width: 100%;
+    }
+    //responsive tablette
+    @media screen  and (max-width:768px){
+        &-partenaire-logo{   
+           img{
+               margin-left:0px !important;
+               margin-right: 19px;
+           }
+        }
     }
 }
    

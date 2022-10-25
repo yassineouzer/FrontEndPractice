@@ -1,91 +1,57 @@
 .parent{
- 
-
-&-blog{
-
-margin-top:78px;
-
-
-
-
-
-
-
-        h3{
-          font-size: 30px;
-          color: #1D293F;
-          margin-left:186px;
-          margin-top: 53px;
-          width: 42%;
-
-          span{
-
-              color: green;
-          }
-
-           p{
-                margin-top: 10px;
-                margin-left: 2px;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    &-blog{
+            h3{
+                font-size: 30px;
+                color: #1D293F;
+               }   
+               width: 42%;
+            
+            span{
+                color: green;
+            }
+            p{
                 width: 100%;
                 font-size: 10px;
                 color: #1D293F;
-                
-        
+            }   
+            button{    
+                margin-top: 30px;
+                border: solid 3px green;
+                background-color: green;
+                border-radius: 8px;
+                padding: 8px 23px;
+                color: white;
+                font-size: 15px;
+            } }
+        &-image{
+            &-detail{
+                background-image: url("/assests/image/Group206.png");
+            }
         }
-
-       
       
-    button{
 
-        margin-left: 184px;
-        margin-top: 30px;
-        padding: 12px 20px;
+// responsive tablette 
+@media screen and (max-width:768px) {
+    margin-left: 48px;
+    margin-right: 43px;
+    button{
+        font-size: 10px !important;
         text-align: center;
         color: white;
-        background-color: #75B72D;
         border-radius: 10px;
-    }
-    
-
-
-
-&-image{
-    margin-top:35px;
-
-    &-detail{
-
-        background-image: url("/assests/image/Group206.png");
-    }
-}
-
-}
-
-
-       
-  } }
-
-
-
-
-  @media screen and (max-width:768px) {
-
-    button{
-        font-size: 13px !important;
-        padding: 8px  20px;
-        text-align: center;
-        color: white;
-        background-color: #75B72D;
-         border-radius: 10px;
-         margin-left: 182px;
-         margin-top: 20px;
+        padding: 8px 18px;
     }
     h3{
-        font-size: 16px !important;
-        color: red;
+        font-size: 17px !important;  
     }
-       
-
-
-
+    p{
+        font-size: 8px;
+    }
 }
-
+    }

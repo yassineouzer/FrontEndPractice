@@ -1,0 +1,54 @@
+
+.global{
+    height: 300px;
+    background-color:  #F5FAFD;
+      &-parent{
+          padding-left: 31px;
+          padding-right: 40px;
+       h3{
+       font-size: 26px;
+       span{
+         color:orange;
+         margin-right:5px
+       }
+        }     
+        &-block{
+              background-color: white;
+              height: 177px;
+              width: 250px;
+              margin-left:40px;
+           p{
+                  font-size: 10px;
+                  margin-top:20px;
+        }
+           span{     
+           font-size: 8px;
+       }
+
+
+}
+
+  
+// responsive tablette 
+ @media screen and (max-width:768px) {
+
+  &-block{
+      height: 171px !important;
+      width: 200px !important;
+
+     
+    }
+   
+
+    }
+       
+  }
+
+}
+
+
+
+
+
+
+

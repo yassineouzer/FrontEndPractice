@@ -8,14 +8,12 @@
       height: 30px;
       background-image: url("/assets/image/oval.svg");
       background-repeat: no-repeat;
-      color: orange;
-   
+      color: orange;   
 }
 &-parent{
    h3{
         font-size: 36px;
-     }
-  
+     } 
 }
     &-colone{
         margin-top: 30px;
@@ -48,12 +46,8 @@
                 }
             }
         }
+    }  
     }
-        
-    
-    }
-
-
 // responsive tablette 
 @media screen and (max-width:768px){
 
@@ -68,6 +62,7 @@
     &-parent{
         h3{
             font-size:23px;
+            font-weight: 500;
         }
     }
 }

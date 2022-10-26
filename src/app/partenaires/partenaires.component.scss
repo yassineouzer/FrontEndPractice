@@ -1,6 +1,6 @@
 .parent{
     background-color: #F5FAFD;
-    height: 200px;
+    padding: 36px 100px;
     h3{
         margin-bottom: 60px;
         font-size: 36px;
@@ -8,17 +8,29 @@
     &-partenaire-logo{   
         width: 100%;
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap;    
     }
     //responsive tablette
     @media screen  and (max-width:768px){
+        padding: 36px 34px;
         &-partenaire-logo{   
            img{
                margin-left:0px !important;
-               margin-right: 19px;
+               margin-right: 7px;
            }
         }
     }
-}
-   
+    //responsive mobile
+    @media screen and (max-width:412px){
+    &-partenaire-logo{ 
+    &-images{
+            width: 100%;
+            height: 45px;
+            margin-bottom: 34px;
+    }}
+         h3{
+            font-size: 28px;
+            font-weight: 500;
+    }
+    }
+    }

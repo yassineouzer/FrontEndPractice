@@ -36,7 +36,6 @@
                 color: red;
             }
         }
-
     }
         .conta{
         background-color: white;
@@ -44,8 +43,7 @@
         button{   
                 background-color:#184B95;
                 border:solid 4px #184B95;
-                height: 88px;
-                width: 229px;
+                padding: 22px 30px;
                 color: white;      
             }
         input[type=text] {  
@@ -83,6 +81,35 @@
              
             }
         }
+    }
+    //responsive mobile
+    @media screen and (max-width:412px) {
+       .conta{
+           margin-right: 10px;
+        input[type=text] {  
+            width:95% !important;
+            margin-bottom: 23px;
+            padding-top: 12px; 
+        }
+        &-selec{
+            width: 100% !important;
+            margin-bottom: 23px;
+        }
+        button{
+            padding: 10px 101px;
+            margin-top: 10px;
+        }
+       }
+       &-desc{
+        position: absolute;
+           p{
+               font-size:14px;
+           }
+           span{
+               font-size:13px;
+               transform: translateY(-167px);
+           }
+       }      
     }
 
 }

@@ -1,9 +1,8 @@
 .globale{
     padding-left: 83px;
     padding-right: 40px;
-  
 &-parents{
-               h3{
+           h3{
                 font-size: 40px;
                 margin-top: 40px;
             }}
@@ -43,9 +42,8 @@
                 margin-left: 433px;
                 padding: 6px 13px;
                 text-align: center;
-                color: white;
-                
-            }
+                 color: white;       
+           }
     }
     //responsive tablette
 @media screen and (max-width:768px) {
@@ -84,7 +82,7 @@
             &-childe{
                 &-blocke{
                     margin-top: 28px;
-                }}
+              }}
   } 
 }
 

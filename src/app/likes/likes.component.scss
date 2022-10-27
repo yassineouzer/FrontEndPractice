@@ -1,14 +1,16 @@
 .global{
-     padding-top: 8px;
-     padding-bottom: 40px;
+    padding:85px 163px;
     background-color:  #F5FAFD;
       &-parent{
           padding-left: 31px;
           padding-right: 40px;
        h3{
-       font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
        span{
-         color:orange;
+        color: #EB660B;
          margin-right:5px
        }
         }     

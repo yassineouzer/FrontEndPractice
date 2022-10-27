@@ -3,21 +3,29 @@
     max-width: auto; 
     &::before{
       content: '';
-      display:block;
-      width: 50px;
-      height: 30px;
-      background-image: url("/assets/image/oval.svg");
+      width: 158px;
+      height: 243px;
+      background-image: url("/assets/image/offre.svg");
       background-repeat: no-repeat;
-      color: orange;   
+      color: orange;  
+      position: absolute;
+      left: 0%;
+  
+      
 }
 &-parent{
+    padding: 28px 19px;
    h3{
-        font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #1D293F;
      } 
 }
     &-colone{
         margin-top: 30px;
-        margin-left: 130px;
+        margin-left: 180px;
         margin-right: 130px;
 
     &-block{

@@ -1,5 +1,7 @@
 .hero{
-    position:relative;  
+    position:relative;
+    padding: 0px 100px;
+    background: linear-gradient(360deg, rgba(233, 247, 254, 0.53) 0%, rgba(233, 247, 254, 0) 100%);  
     img{
         width: 100%;
     }
@@ -7,8 +9,15 @@
         position: absolute;
         transform: translateY(-50%);
         top: 50%;
-        left: 5%;
+        left: 15%;
         width: 679px;
+        &::before{
+            content: "";
+            background: linear-gradient(90deg, #2226328c 46.19%, rgba(34, 38, 50, 0) 100%);
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
         p{
             font-weight: 700;
             font-size: 70px;

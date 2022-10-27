@@ -7,27 +7,29 @@
     padding-bottom: 40px;
     &-blog{
             h3{
-                font-size: 30px;
-                color: #1D293F;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                 line-height: 62px;
                }   
                width: 42%;
+               margin-right: 50px;
             
             span{
                 color: green;
             }
             p{
                 width: 100%;
-                font-size: 10px;
+                font-size: 16px;
                 color: #1D293F;
+                line-height: 23px
             }   
             button{    
                 margin-top: 30px;
-                border: solid 3px green;
-                background-color: green;
-                border-radius: 8px;
-                padding: 8px 23px;
+                background: #75B72D;
                 color: white;
-                font-size: 15px;
+                border-radius: 8px;
+                padding: 16px 35px
             } }
         &-image{
             &-detail{

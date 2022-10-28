@@ -10,10 +10,8 @@
             &-blocke{
                 margin-right: 58px;
                 background-color: #F5FAFD;
-                padding-bottom: 29px;
-                img{
-                     width: 100%;
-                    }
+                padding: 30px 27px;
+               
             &-sousBlocke{
                 margin-left: 8px;
                 span{
@@ -28,8 +26,13 @@
                     color: rgba(16, 66, 253, 1);  
                     }
                 p{
-                    font-size: 16px;
-                    width: 50%;          
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 27px;
+                    margin-top: 23px;
+                    color: #1D293F;
+                    width: 83%;         
                     }
         }
         }
@@ -49,12 +52,18 @@
 @media screen and (max-width:768px) {
     &-childe{
     &-blocke{   
+        padding: 30px 13px;
                 span{
-                width: 59% !important;
+                width: 92% !important;
                 }
                 p{
-                width: 89%;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 13px;
+                    line-height: 18px;
+                    width: 100%;
                 } 
+               
     }       
     }
        &-bottom{
@@ -66,12 +75,17 @@
     }
   //responsive mobile
     @media screen and (max-width:412px){
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         &-bottom{
+            margin-top: -24px;
             button{
-                margin-left:22px !important;
+                
+                margin-left: 85px !important
             }}
         &-parents{
             display: flex;
+            margin: 53px;
                 h3{
                     font-size: 20px;
                     justify-content: flex-start;
@@ -82,6 +96,8 @@
             &-childe{
                 &-blocke{
                     margin-top: 28px;
+                    margin: 22px;
+                    
               }}
   } 
 }

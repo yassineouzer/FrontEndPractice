@@ -171,6 +171,10 @@
                 background-color: rgba(255, 89, 62, 0.13);
                 i {
                     background-image: url("/assets/image/Trashicon.svg");
+                    height: 40px;
+                    width: 20px;
+                    display: block;
+                    background-repeat: no-repeat;
                 }
             }
             &-Compétences {

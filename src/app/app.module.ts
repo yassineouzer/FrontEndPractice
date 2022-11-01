@@ -13,6 +13,7 @@ import { LikesComponent } from './likes/likes.component';
 import { ActualitesComponent } from './actualites/actualites.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProfileUserComponent } from './profile-user/profile-user.component';
+import { OpportunitesEmploiComponent } from './opportunites-emploi/opportunites-emploi.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProfileUserComponent } from './profile-user/profile-user.component';
     LikesComponent,
     ActualitesComponent,
     FooterComponent,
-    ProfileUserComponent
+    ProfileUserComponent,
+    OpportunitesEmploiComponent
   ],
   imports: [
     BrowserModule,

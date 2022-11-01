@@ -1,13 +1,38 @@
+.head {
+    background-color: white;
+    height: 86px !important;
+    a {
+        img {
+            &.imagelogo {
+                margin-left: 100px !important;
+                margin-top: 24px;
+            }
+            &.profile {
+                margin-right: 112px !important;
+            }
+            &.Fleche{
+                margin-left: -29px;
+                margin-top: -24px;
+            }
+          
+        }
+    }
+    h3{
+        margin-left: -125px;
+        margin-top: -16px;
+    }
+}
+
 .Parent {
     background-color: #f5fafd;
-    padding-top: 50px;
+    padding-top: 19px;
     .sidebar {
         background-color: white;
-        margin-top: 40px;
+        margin-top: 29px;
         border: solid 2px white;
         margin-left: 20px;
         width: 360px;
-        height: 700px;
+        height: 606px;
         &.EditIcons {
             i {
                 background-image: url("/assets/image/EditIcons.svg");
@@ -16,8 +41,7 @@
             }
         }
         &-children1 {
-            margin-top: 60px;
-            padding: 26px 53px;
+            padding: 53px 53px;
             ul {
                 margin-left: 10px;
                 li {
@@ -73,7 +97,7 @@
             font-size: 13px;
             line-height: 24px;
             text-align: center;
-            margin-top: 19px;
+            margin-top: 10px;
             border-top: 0.6px solid rgba(0, 0, 0, 0.08);
             padding-top: 30px;
             h5 {
@@ -101,7 +125,7 @@
                 border-radius: 6px;
                 padding: 11px 11px;
                 margin-bottom: 10px;
-                margin-top: 30px;
+                margin-top: 20px;
                 color: white;
                 &.btnDownload {
                     color: white;
@@ -171,8 +195,8 @@
                 background-color: rgba(255, 89, 62, 0.13);
                 i {
                     background-image: url("/assets/image/Trashicon.svg");
-                    height: 40px;
-                    width: 20px;
+                    height: 15px;
+                    width: 12px;
                     display: block;
                     background-repeat: no-repeat;
                 }

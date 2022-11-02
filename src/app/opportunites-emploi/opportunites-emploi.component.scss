@@ -1,0 +1,167 @@
+.head {
+    background-color: white;
+    height: 86px !important;
+    a {
+        img {
+            &.imagelogo {
+                margin-left: 53px !important;
+                margin-top: 24px;
+            }
+            &.profile {
+                margin-right: 112px !important;
+            }
+            &.Fleche{
+                margin-left: -28px;
+                margin-top: -24px;
+            }
+         
+        }
+        h3{
+            margin-left: -125px;
+            margin-top: -16px;
+        }  }
+}
+
+.Parent{
+    background-color: #f5fafd;
+    .sidebar{
+        background-color: white;
+    margin-top: 30px;
+    margin-left: 46px;
+    height: 750px;
+    width: 40%;
+    &-children1{
+        form{
+            margin-left: 16px;
+            margin-top: 21px;
+            .designer{
+                border-bottom: solid 1px rgba(24, 24, 24, 0.4);
+            }
+            .ville{
+                border-bottom: solid 1px rgba(24, 24, 24, 0.4);
+            }
+            .motclé{
+                font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+            }
+            .listedeSelection{
+                border-bottom: solid 1px rgba(24, 24, 24, 0.4);
+                width: 63%;
+            }
+        }
+    }
+    }
+    .Parent2{
+        background-color: white;
+        border: solid 1px white;
+        border-radius: 5px;
+        margin-right: 82px;
+        margin-left: 150px;
+        margin-top: 25px;
+        padding: 19px 35px;
+        .FirstChild{
+            h1{
+                font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: #1D293F;
+margin-left: -440px;
+            }
+            .image{
+                margin-top: 7px;
+             
+                img:nth-child(2){
+                    margin-top: -27px;
+                    margin-left: -34px;
+                }
+                .Likeicon{
+                    background: #F2F6F9;
+                    box-shadow: 0px 18px 24px -10px rgb(0 0 0 / 3%);
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+                .Dislkeicon{
+                    background: #F2F6F9;
+                    box-shadow: 0px 18px 24px -10px rgb(0 0 0 / 3%);
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+            }
+        }
+        .SecondChild{
+            margin-top: -25px;
+            margin-left: 90px;
+            h2{
+                font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #1D293F;
+            }
+            span{
+                background-color: rgba(245, 166, 35, 0.148721);
+                border-radius: 5px;
+              font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                color: #F5A623;
+                width: 76px;
+               height: 20px;
+               text-align: center;
+            }
+        }
+        .ThirdChild{
+            margin-top: 25px;
+        
+            h2{
+                color: #8C97AC;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px
+            }
+            h3{
+                color: #8C97AC;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px
+            }
+        }
+        p{
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+color: #1D293F;
+
+margin-top: 20px;
+      
+    }
+    .LastChild{
+        margin-top: 30px;
+        border-top: solid 1px rgba(0, 0, 0, 0.08);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.08);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 98%;
+        span{
+            background-color: rgba(223, 232, 239, 0.5);
+            border-radius: 8px;
+            padding: 3px 5px;
+            font-size: 12px;
+        }
+    }
+button{
+    background-color: #76B72A;;
+    box-shadow: 0px 18px 24px -10px rgba(0, 0, 0, 0.0295017);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 12px;
+    font-size: 12px;
+}} }

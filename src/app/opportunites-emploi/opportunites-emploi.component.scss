@@ -37,8 +37,23 @@
             form {
                 margin-left: 16px;
                 margin-top: 21px;
+                .nameCheckbox {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #000000;
+                }
+                    .firstSelect {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #000000;
+                        margin-left: 19px;
+                    }
+                
                 ::placeholder {
                     color: rgba(24, 24, 24, 0.2);
+                }
+                input[type="checkbox"] {
+                    margin-left: -10px;
                 }
 
                 .designer {
@@ -249,44 +264,48 @@
         &-sidebar {
             height: 658px;
             margin-left: 56px;
-          &-children1{
-            form {
-              
-                .title {
-                    margin-left: -33px;
-                    font-size: 11px;
-                    font-weight: 900;
-                }
-                button {
-                    margin-left: -9px;
-                }
-                .motclé {
-                    margin-left: -33px;
-                    width: 141%;
-                    outline: none;
-                }
-                .designer {
-                    width: 141%;
-                    margin-left: -34px;
-                    outline: none;
-                }
-                .nameCheckbox {
-                    font-size: 10px;
-                    color: black;
-                    font-weight: 700;
-                }
-                .ville {
-                    width: 134%;
-                    margin-left: -32px;
-                    outline: none;
-                }
-                .listedeSelection {
-                    width: 138%;
-                    margin-left: -33px;
-                    outline: none;
+            width: 700px;
+            &-children1 {
+                form {
+                    input[type="checkbox"] {
+                        margin-left: -34px;
+                    }
+                    .title {
+                        margin-left: -33px;
+                        font-size: 11px;
+                        font-weight: 900;
+                    }
+                    button {
+                        margin-left: -9px;
+                    }
+                    .motclé {
+                        margin-left: -33px;
+                        width: 141%;
+                        outline: none;
+                    }
+                    .designer {
+                        width: 121%;
+                        margin-left: -34px;
+                        outline: none;
+                    }
+                    .nameCheckbox {
+                        font-size: 10px;
+                        color: black;
+                        font-weight: 700;
+                    }
+                    .ville {
+                        width: 121%;
+                        margin-left: -32px;
+                        outline: none;
+                    }
+                    .listedeSelection {
+                        width: 121%;
+                        margin-left: -33px;
+                        outline: none;
+                    }
                 }
             }
-        }}
+        }
         .Parent2 {
             padding: 16px 16px;
             width: 468px;

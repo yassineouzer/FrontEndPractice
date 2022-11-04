@@ -25,6 +25,7 @@
 .Parent {
     background-color: #f5fafd;
     padding-top: 29px;
+    margin-bottom: -38px;
     &-sidebar {
         background-color: white;
         margin-top: 26px;
@@ -221,7 +222,7 @@
             color: #1d293f;
             width: 100%;
             margin-top: 20px;
-            margin-bottom: 1px;
+            margin-bottom: -6px;
         }
         &-LastChild {
             margin-top: 30px;

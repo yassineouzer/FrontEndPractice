@@ -5,9 +5,9 @@ import { OpportunitesEmploiComponent } from './opportunites-emploi/opportunites-
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {path:"ProfileUser", component:ProfileUserComponent },
-  {path:"OpportunitesEmploi", component:OpportunitesEmploiComponent },
-  {path:"", component:HomeComponent }
+  { path: "ProfileUser", component: ProfileUserComponent },
+  { path: "OpportunitesEmploi", component: OpportunitesEmploiComponent },
+  { path: "", component: HomeComponent }
 ];
 
 @NgModule({

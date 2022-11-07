@@ -13,24 +13,24 @@ import { HomeComponent } from './home.component';
 import { FooterComponent } from './partial/footer/footer.component';
 
 @NgModule({
-  declarations: [
-  
-    HeaderComponent,
-    HeroComponent,
-    PartenairesComponent,
-    ServicesComponent,
-    OffresComponent,
-    BlogComponent,
-    LikesComponent,
-    ActualitesComponent,
-    FooterComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
- 
-  ],
-  providers: [],
+    declarations: [
+
+        HeaderComponent,
+        HeroComponent,
+        PartenairesComponent,
+        ServicesComponent,
+        OffresComponent,
+        BlogComponent,
+        LikesComponent,
+        ActualitesComponent,
+        FooterComponent,
+        HomeComponent
+    ],
+    imports: [
+        BrowserModule,
+
+    ],
+    providers: [],
 
 })
 export class AppModule { }

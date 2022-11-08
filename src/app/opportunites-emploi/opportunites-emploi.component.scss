@@ -254,7 +254,7 @@
 @media screen and (max-width: 768px) {
     .head {
         a {
-            margin-right: -19px;
+            margin-right: -121px;
             img {
                 &.imagelogo {
                     margin-left: 55px !important;
@@ -344,6 +344,7 @@
 @media screen and (max-width:425px){
     .head{
         a{
+            margin-right: -83px;
             img.imagelogo{
                 margin-left: 27px !important;
 }
@@ -351,7 +352,8 @@
         }
 
     .Parent{
-        
+      flex-wrap: wrap;
+      margin-right: -264px;
         &-sidebar{
             height: 658px;
             margin-left: -168px;
@@ -369,5 +371,10 @@
                 }
             }}
         }
+  .Parent2{
+    margin-right: 167px;
+    &-LastChild{
+        display: inline-block;
     }
+  }  }
 }

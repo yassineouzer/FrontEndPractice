@@ -22,10 +22,12 @@
                 color: white;
             }
             &-second {
+                margin-left: 95px;
                 h3 {
                     color: rgba(235, 102, 11, 1);
                     margin-top: 30px;
                     margin-bottom: 20px;
+                  
                 }
                 ul li {
                     color: white;
@@ -34,10 +36,12 @@
                 }
             }
             &-third {
+                margin-left: 63px;
                 h3 {
                     color: rgba(235, 102, 11, 1);
                     margin-top: 30px;
                     margin-bottom: 20px;
+                
                 }
                 ul li {
                     color: white;
@@ -114,8 +118,13 @@
 
     // responsive tablette
     @media screen and (max-width: 768px) {
+        margin-right: -65px;
+
         &-blockes {
             margin-left: -50px;
+            span{
+                width: 68% !important;
+            }
             &-second {
                 margin-left: 90px;
             }
@@ -126,19 +135,21 @@
     }
     // responsive mobile
     @media screen and (max-width: 412px) {
+        &-children{
         &-blockes {
             &-second {
-                margin-left: 12px !important;
+                margin-left: 64px !important;
+           margin-left: 69px;
                 ul li {
                     color: white;
                 }
             }
             &-third {
-                margin-left: 12px !important;
+                margin-left: 64px !important;
                 ul li {
                     color: white;
                 }
             }
         }
     }
-}
+}}

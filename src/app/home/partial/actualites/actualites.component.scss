@@ -50,11 +50,14 @@
     }
     //responsive tablette
 @media screen and (max-width:768px) {
+    padding-left: 43px;
+    padding-right: 20px;
     &-childe{
     &-blocke{   
-        padding: 30px 13px;
+        padding: 12px 7px;
+        margin-right: 27px;
                 span{
-                width: 92% !important;
+                    width: 46% !important;
                 }
                 p{
                     font-style: normal;
@@ -97,6 +100,12 @@
                 &-blocke{
                     margin-top: 28px;
                     margin: 22px;
+                    span{
+                        width: 28% !important;
+                    }
+                    &-second{
+                        width: 61% !important
+                    }
                     
               }}
   } 

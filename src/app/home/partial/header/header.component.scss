@@ -31,16 +31,23 @@ button{
 
  
 }
-    /*@media screen and (max-width: 768px){
-        padding-top:0px !important;
+@media screen and (max-width: 768px){
+     
         button{
             padding: 8px 13px;
             font-size:10px;
         }
       a{
-          font-size:12px;
+          font-size:11px;
       }
-    }*/
+      .menu{
+          ul{
+              li{
+                  margin-left: 17px !important;
+              }
+          }
+      }
+    }
 
 
 

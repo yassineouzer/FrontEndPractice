@@ -10,16 +10,16 @@
             &.profile {
                 margin-right: 112px !important;
             }
-            &.Fleche{
+            &.Fleche {
                 margin-left: -28px;
                 margin-top: -24px;
             }
-         
         }
-        h3{
+        h3 {
             margin-left: -125px;
             margin-top: -16px;
-        }  }
+        }
+    }
 }
 
 .Parent {
@@ -152,7 +152,7 @@
             color: white;
             text-align: center;
             margin-bottom: 40px;
-            button{
+            button {
                 padding: 10px 10px;
             }
             i {
@@ -240,6 +240,84 @@
             font-size: 16px;
             margin-bottom: 40px;
             font-weight: 300;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .head {
+        a {
+            img.imagelogo {
+                margin-left: 26px !important;
+            }
+            margin-right: -136px;
+            
+        }
+    }
+    .Parent {
+        margin-right: -67px;
+        margin-bottom: -36px;
+        .sidebar {
+            height: 665px;
+            &-children1 {
+                img {
+                    margin-left: 68px !important;
+                }
+                padding: 53px 2px;
+            }
+            h1 {
+                font-size: 14px;
+            }
+            &-children2 {
+                p {
+                    font-size: 12px;
+                }
+                h5 {
+                    margin-left: 26px;
+                }
+            }
+            &-children3 {
+                padding: 5px 11px;
+                margin-left: 20px;
+                button {
+                    font-size: 12px;
+                }
+            }
+        }
+        .Parent2 {
+            padding: 8px 12px;
+            .SecondChild {
+                h1 {
+                    font-size: 14px;
+                }
+                &-Compétences{
+                    span{
+                    margin-bottom: 12px;
+                    display: inline-block;}
+                }
+                &-btn{
+                    display: flex;
+                    button{
+                        height: 31px;
+                    }
+                }
+            }
+            .FirstChild {
+                h1 {
+                    font-size: 20px;
+                }
+                button {
+                    margin-left: 3px;
+                }
+            }
+            p {
+                font-size: 12px;
+                width: 100%;
+            }
+            &-SaveBtn {
+                margin-left: 0px !important;
+                margin-right: 63px;
+            }
+        
         }
     }
 }

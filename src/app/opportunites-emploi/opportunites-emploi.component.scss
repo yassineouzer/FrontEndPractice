@@ -267,6 +267,7 @@
     }
     .Parent {
         margin-right: -66px;
+        flex-wrap: wrap;
         &-sidebar {
             height: 658px;
             margin-left: 56px;
@@ -337,6 +338,35 @@
                     margin-left: 0px !important;
                 }
             }
+        }
+    }
+}
+@media screen and (max-width:425px){
+    .head{
+        a{
+            img.imagelogo{
+                margin-left: 27px !important;
+}
+            }
+        }
+
+    .Parent{
+        &-sidebar{
+            height: 658px;
+            margin-left: -168px;
+            width: 350px;
+            &-children1{
+                form{
+                .designer{
+                    width: 114%;
+                }
+                .ville{
+                    width: 114%;
+                }
+                .listedeSelection{
+                    width: 114%;
+                }
+            }}
         }
     }
 }

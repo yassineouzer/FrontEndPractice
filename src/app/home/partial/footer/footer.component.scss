@@ -118,7 +118,7 @@
 
     // responsive tablette
     @media screen and (max-width: 768px) {
-        margin-right: -65px;
+        margin-right: -141px;
 
         &-blockes {
             margin-left: -50px;
@@ -135,6 +135,7 @@
     }
     // responsive mobile
     @media screen and (max-width: 412px) {
+        margin-right: -141px;
         &-children{
         &-blockes {
             &-second {

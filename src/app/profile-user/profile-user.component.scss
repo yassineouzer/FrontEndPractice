@@ -325,3 +325,33 @@
         }
     }
 }
+
+@media screen and (max-width:425px){
+    .Parent{
+        flex-wrap: wrap;
+        .sidebar{
+            margin-left: -33px;
+        }
+        .Parent2{
+            margin-left: 32px;
+    margin-right: 105px;
+ 
+            .FirstChild{
+                h1{
+                    font-size: 19px;
+                }
+            }
+            .SecondChild{
+                h1{
+                    font-size: 13px;
+                }
+                &-btn{
+                    margin-top: 3px;
+                }
+            }
+    &-SaveBtn{
+        margin-left: 60px !important;
+    margin-right: 105px;
+    }  }
+    }
+}

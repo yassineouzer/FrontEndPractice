@@ -246,15 +246,19 @@
 @media screen and (max-width: 768px) {
     .head {
         a {
+            margin-right: 199px;
             img.imagelogo {
                 margin-left: 26px !important;
+            }
+            img.profile {
+                margin-right: 43px !important;
             }
             margin-right: -136px;
             
         }
     }
     .Parent {
-        margin-right: -67px;
+        margin-right: -139px;
         margin-bottom: -36px;
         .sidebar {
             height: 665px;

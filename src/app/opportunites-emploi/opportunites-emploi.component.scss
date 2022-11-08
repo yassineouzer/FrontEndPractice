@@ -254,9 +254,10 @@
 @media screen and (max-width: 768px) {
     .head {
         a {
+            margin-right: -19px;
             img {
                 &.imagelogo {
-                    margin-left: 23px !important;
+                    margin-left: 55px !important;
                 }
                 &.profile {
                     margin-right: 20px !important;
@@ -265,6 +266,7 @@
         }
     }
     .Parent {
+        margin-right: -66px;
         &-sidebar {
             height: 658px;
             margin-left: 56px;

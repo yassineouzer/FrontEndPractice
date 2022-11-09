@@ -52,6 +52,14 @@
 @media screen and (max-width:768px) {
     padding-left: 43px;
     padding-right: 20px;
+    margin-right: -142px;
+    
+    &-parents{
+        h3{
+            width: 100%;
+            margin-left: 0px;
+        }
+    }
     &-childe{
     &-blocke{   
         padding: 12px 7px;
@@ -77,20 +85,27 @@
     }   
     }
   //responsive mobile
-    @media screen and (max-width:412px){
+    @media screen and (max-width:425px){
         padding-left: 0px !important;
         padding-right: 0px !important;
+        margin-right: -342px;
+    
         &-bottom{
             margin-top: -24px;
+           
             button{
                 
-                margin-left: 85px !important
+                margin-left: 85px !important;
+                margin-left: 107px !important;
+                padding: 18px 128px !important;
+              
+    
             }}
         &-parents{
             display: flex;
             margin: 53px;
                 h3{
-                    font-size: 20px;
+                    font-size: 38px;
                     justify-content: flex-start;
                     margin-bottom: 0px;
                     font-weight: 500;
@@ -100,11 +115,22 @@
                 &-blocke{
                     margin-top: 28px;
                     margin: 22px;
+                    display: flex;
                     span{
-                        width: 28% !important;
+                        width: 45% !important;
+                        font-size: 25px;
+                        border-radius: 6px;
+                    }
+
+                    
+                    p{
+                        font-size: 21px;
                     }
                     &-second{
                         width: 61% !important
+                    }
+                    img{
+                        width: 41%;
                     }
                     
               }}

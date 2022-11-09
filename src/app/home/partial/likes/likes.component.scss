@@ -54,7 +54,7 @@
 // responsive tablette 
 .global{
  @media screen and (max-width:768px) {
-
+  margin-right: -142px;
    padding: 0px 0px ;
   &-parent{
     padding: 10px 37px;
@@ -68,7 +68,8 @@
     }
     }
 //responsive mobile
-@media screen and (max-width:412px){
+@media screen and (max-width:425px){
+  margin-right: -400px;
   padding: 0px 0px !important;
   &-parent{
   h3{
@@ -76,9 +77,16 @@
     
   }
   &-block{
-    padding: 18px 0px;
+    padding: 28px 26px;
     margin-bottom: 18px;
-    margin-left: 22px !important;}
+    margin-left: -6px !important;
+  p{
+    font-size: 21px;
+  
+}
+span{
+  font-size: 21px;
+}}
   }      
  
 }}

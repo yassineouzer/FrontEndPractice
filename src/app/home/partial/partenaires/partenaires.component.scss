@@ -18,7 +18,9 @@
     //responsive tablette
     @media screen  and (max-width:768px){
         padding: 36px 34px;
+        margin-right: -142px;
         &-partenaire-logo{   
+            justify-content: center;
            img{
                margin-left:0px !important;
                margin-right: 7px;
@@ -29,7 +31,9 @@
         }
     }
     //responsive mobile
-    @media screen and (max-width:412px){
+    @media screen and (max-width:425px){
+        margin-right: -400px;
+    
     &-partenaire-logo{ 
     &-images{
             width: 100%;

@@ -1,111 +1,117 @@
-.service{
+.service {
     margin: 56px 26px !important;
 
-    &-titre{
-     h5{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 48px;
-        color: #1D293F;
-        margin-left: 186px;
-     }
-    &-scrollbtn{
-        button{
-            position: relative;
-        &-right{
-            width: 55px;
-            height: 53px;
-            background-color: #184B95;
-            position: absolute;
-            display: inline-block;
-            width: 83px;
-            height: 70px;
-            i{
-                background-image: url("/assets/image/rightIcon.svg");
-            }
-}
-       &-left{
-        width: 55px;
-        height: 53px;
-        background-color: #184B95;
-        position: absolute;
-        display: inline-block;
-        width: 83px;
-        height: 70px;
-           i{
-            background-image: url("/assets/image/leftIcon.svg");
-           }
-       }
-        }}
-    } 
-    &-card{
-        margin-top: 41px;
-     &-detail{
-        
-    &:hover{
-        background-color:rgba(24, 75, 149, 1);
-        color: white;
-    }
-        width: 240px;
-        height: 240px;
-        background: #F5FAFD;
-        margin-right: 15px;
-        padding-top: 99px;
-        h6{
-            margin-top: 26px;
+    &-titre {
+        h5 {
             font-style: normal;
-            font-weight: 500;
-            font-size: 21px;
-            line-height: 27px;
-            color: #1D293F;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            color: #1d293f;
+            margin-left: 186px;
         }
-        span{
-            font-size: 8px;
-          
-        }   
-    }}
-    // responsive tablette 
-    @media screen and (max-width:768px){
-        &-titre{
-            h5{
-            margin-left: 15px;}
+        &-scrollbtn {
+            button {
+                position: relative;
+                &-right {
+                    width: 55px;
+                    height: 53px;
+                    background-color: #184b95;
+                    position: absolute;
+                    display: inline-block;
+                    width: 83px;
+                    height: 70px;
+                    i {
+                        background-image: url("/assets/image/rightIcon.svg");
+                    }
+                }
+                &-left {
+                    width: 55px;
+                    height: 53px;
+                    background-color: #184b95;
+                    position: absolute;
+                    display: inline-block;
+                    width: 83px;
+                    height: 70px;
+                    i {
+                        background-image: url("/assets/image/leftIcon.svg");
+                    }
+                }
+            }
         }
-        &-card{
-            margin-top: 0px !important;
-        &-detail{
-            &:hover{
-                background-color:rgba(24, 75, 149, 1);
+    }
+    &-card {
+        margin-top: 41px;
+        &-detail {
+            &:hover {
+                background-color: rgba(24, 75, 149, 1);
                 color: white;
             }
-            background-color: rgb(245, 250, 253);
-            padding-top: 100px;
-            margin: 30px 3px;
-            width: 169px;
+            width: 240px;
             height: 240px;
-            
-        h6{
-            font-size: 15px !important;
-        }
-        
-        margin: 36px 3px;
-    }}}
-
-    //responsive mobile
-    @media screen and (max-width:412px){
-            &-card{
-                &-detail{
-                width: 80%;
-                margin-bottom: 24px;
-        }}
-        &-titre{
-            margin-right: 34px;
-        h5{
-            margin-left: 30px;
-            font-size: 30px;
+            background: #f5fafd;
+            margin-right: 15px;
+            padding-top: 99px;
+            h6 {
+                margin-top: 26px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 27px;
+                color: #1d293f;
+            }
+            span {
+                font-size: 8px;
+            }
         }
     }
+    // responsive tablette
+    @media screen and (max-width: 768px) {
+        &-titre {
+            h5 {
+                margin-left: 15px;
+            }
+        }
+        &-card {
+            margin-top: 0px !important;
+            &-detail {
+                &:hover {
+                    background-color: rgba(24, 75, 149, 1);
+                    color: white;
+                }
+                background-color: rgb(245, 250, 253);
+                padding-top: 100px;
+                margin: 30px 5px;
+                width: 169px;
+                height: 240px;
+
+                h6 {
+                    font-size: 15px !important;
+                }
+
+                margin: 36px 3px;
+            }
+        }
+    }
+
+    //responsive mobile
+    @media screen and (max-width: 425px) {
+        &-card {
+            margin-top: 0px !important;
+            margin-left: 130px;
+            width: 161%;
+            &-detail {
+                width: 80%;
+                margin-bottom: 24px;
+            }
+        }
+        &-titre {
+            margin-right: 34px;
+            h5 {
+         
+                font-size: 30px;
+            }
+        }
     }
     margin: 16px 26px;
 }
-

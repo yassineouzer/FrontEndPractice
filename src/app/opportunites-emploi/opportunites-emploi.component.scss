@@ -344,7 +344,7 @@
 @media screen and (max-width:425px){
     .head{
         a{
-            margin-right: -83px;
+            margin-right: -400px;
             img.imagelogo{
                 margin-left: 27px !important;
 }
@@ -353,28 +353,23 @@
 
     .Parent{
       flex-wrap: wrap;
-      margin-right: -264px;
+      margin-right: -400px;
         &-sidebar{
             height: 658px;
-            margin-left: -168px;
-            width: 350px;
+            margin-left: -14px;
+            width: 460px;
             &-children1{
                 form{
                 .designer{
-                    width: 114%;
+                    width: 104%;
                 }
                 .ville{
-                    width: 114%;
+                    width: 104%;
                 }
                 .listedeSelection{
-                    width: 114%;
+                    width: 104%;
                 }
             }}
         }
-  .Parent2{
-    margin-right: 167px;
-    &-LastChild{
-        display: inline-block;
-    }
-  }  }
+  }
 }

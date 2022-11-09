@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  visibitilyNavbar = true;
+
   constructor() { }
+
+  toggleNavBar(){
+    this.visibitilyNavbar = !this.visibitilyNavbar
+  }
+
 
   ngOnInit(): void {
   }

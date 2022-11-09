@@ -264,7 +264,7 @@
             height: 665px;
             &-children1 {
                 img {
-                    margin-left: 68px !important;
+                    margin-left: 87px !important;
                 }
                 padding: 53px 2px;
             }
@@ -327,10 +327,52 @@
 }
 
 @media screen and (max-width:425px){
+    .head{
+        a{
+            margin-right: -415px;
+        }
+    }
     .Parent{
         flex-wrap: wrap;
+        margin-right: -411px;
+       
         .sidebar{
+           width: 84% !important;
+           margin-left: 0px !important;
+            &-children1{
+                img{
+                    margin-left: 202px !important;
+                    width: 25%;
+            }
+            span{
+                font-size: 26px;
+            }
+        }
+            h1{
+                font-size: 34px;
+            }
             margin-left: -33px;
+            width: 72%;
+            &-children3{
+                button{
+                    margin-left: 15px;
+                    margin-top: 36px;
+                    padding: 26px 28px;
+                    font-size: 16px;
+                }
+              
+                }
+                &-children2{
+                    p{
+                      font-size: 25px;
+                      margin-top: 50px;
+                    }
+                    h5{
+                        font-size: 31px;
+                    }
+                  
+                    }
+            }
         }
         .Parent2{
             margin-left: 32px;
@@ -350,8 +392,9 @@
                 }
             }
     &-SaveBtn{
-        margin-left: 60px !important;
-    margin-right: 105px;
-    }  }
-    }
+        margin-left: 41px !important;
+    margin-right: 63px !important;
+    }  
 }
+    }
+

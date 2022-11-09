@@ -1,6 +1,5 @@
 .parent{
-    display: flex;
-    align-items: center;
+   
     margin-left: 130px;
     margin-right: 130px;
     padding-top: 40px;
@@ -9,27 +8,28 @@
             h3{
                 font-style: normal;
                 font-weight: 700;
-                font-size: 48px;
-                 line-height: 62px;
+                font-size: 43px;
+           
                }   
-               width: 42%;
-               margin-right: 50px;
+               width: 83%;
+               margin-top:92px;
+         
             
             span{
                 color: green;
             }
             p{
                 width: 100%;
-                font-size: 16px;
+                font-size: 17px;
                 color: #1D293F;
-                line-height: 23px
+                line-height: 23px;
             }   
             button{    
                 margin-top: 30px;
                 background: #75B72D;
                 color: white;
                 border-radius: 8px;
-                padding: 16px 35px;
+                padding: 10px 40px;
             } }
         &-image{
             &-detail{
@@ -42,6 +42,11 @@
 @media screen and (max-width:768px) {
     margin-left: 48px;
     margin-right: 43px;
+    &-blog{
+        width: 68%;
+    margin-right: 50px;
+  
+    
     button{
         font-size: 10px !important;
         text-align: center;
@@ -50,21 +55,40 @@
         padding: 9px 28px;
     }
     h3{
-        font-size: 17px !important;
+        font-size: 19px !important;
         line-height: 24px;  
     }
     p{
-        font-size: 8px;
-        line-height: 17px;
-    }}
+        font-size: 11px;
+        line-height: 19px;
+    }}}
 
-@media screen and (max-width:412px){
+@media screen and (max-width:425px){
+    margin-left: 131px;
     &-blog{
+        width: 185%;
+        padding: 15px 0px;
+        font-size: 16px !important;
+        margin-left: 23px !important;
         h3{
-            line-height: 22px !important;
+            line-height: 40px !important;
+            font-size: 30px !important;
         }
         p{
-            line-height: 18px !important;
+            line-height: 31px !important;
+            font-size: 20px !important;
+        }
+        button{
+            padding: 15px 68px;
+            font-size: 16px !important;
+        }
+    }
+    &-image{
+      margin-top: 33px;
+      margin-left: 44px;
+            img{
+
+            max-width: 160%;
         }
     }
 

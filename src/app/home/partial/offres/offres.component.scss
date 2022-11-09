@@ -63,9 +63,12 @@
     }
 // responsive tablette 
 @media screen and (max-width:768px){
+    margin-right: -142px;
     &-parent{
         h3{
             margin-left: 80px;
+            display: flex;
+            justify-content: center;
         }
     }
 
@@ -83,7 +86,9 @@
             }
             }
         }
-@media screen  and (max-width:412px){
+@media screen  and (max-width:425px){
+    margin-right: -400px;
+
     &-parent{
         h3{
             font-size:23px;

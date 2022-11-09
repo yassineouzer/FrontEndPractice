@@ -11,9 +11,12 @@ a{
         margin-left: 88px;}
     
 }
-
+}
 nav{
      margin-right:88px;
+     .menu{
+         margin-right: -300px !important;
+     
 ul{
     li{
         
@@ -32,18 +35,21 @@ button{
  
 }
 @media screen and (max-width: 768px){
+  nav{   
      
-        button{
-            padding: 8px 13px;
-            font-size:10px;
-        }
       a{
           font-size:11px;
       }
       .menu{
+            margin-right: 0px !important;
+    
           ul{
               li{
                   margin-left: 17px !important;
+                  button{
+                    padding: 8px 13px;
+                    font-size:10px;
+                }
               }
           }
       }
@@ -51,3 +57,4 @@ button{
 
 
 
+}

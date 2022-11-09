@@ -371,6 +371,7 @@
     .head{
         a{
 
+
 @media screen and (max-width: 425px) {
     .head {
         a {
@@ -403,12 +404,39 @@
            
             &-children3 {
                 button {
+
+            margin-right: -415px;
+        }
+    }
+    .Parent{
+        flex-wrap: wrap;
+        margin-right: -411px;
+       
+        .sidebar{
+           width: 84% !important;
+           margin-left: 0px !important;
+            &-children1{
+                img{
+                    margin-left: 202px !important;
+                    width: 25%;
+            }
+            span{
+                font-size: 26px;
+            }
+        }
+            h1{
+                font-size: 34px;
+            }
+            margin-left: -33px;
+            width: 72%;
+            &-children3{
+                button{
+
                     margin-left: 15px;
                     margin-top: 36px;
                     padding: 26px 28px;
                     font-size: 16px;
                 }
-
               
                 }
                 &-children2{
@@ -515,3 +543,7 @@
     }
 }
 }}}}         
+
+}
+    }
+

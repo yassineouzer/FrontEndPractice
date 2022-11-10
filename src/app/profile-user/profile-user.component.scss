@@ -254,14 +254,13 @@
                 margin-right: 43px !important;
             }
             margin-right: -136px;
-            
         }
     }
     .Parent {
         margin-right: -139px;
         margin-bottom: -36px;
         .sidebar {
-            height: 665px;
+            height: 100%;
             &-children1 {
                 img {
                     margin-left: 87px !important;
@@ -288,19 +287,21 @@
             }
         }
         .Parent2 {
-            padding: 8px 12px;
+      
+            width: 100%;
             .SecondChild {
                 h1 {
                     font-size: 14px;
                 }
-                &-Compétences{
-                    span{
-                    margin-bottom: 12px;
-                    display: inline-block;}
+                &-Compétences {
+                    span {
+                        margin-bottom: 12px;
+                        display: inline-block;
+                    }
                 }
-                &-btn{
+                &-btn {
                     display: flex;
-                    button{
+                    button {
                         height: 31px;
                     }
                 }
@@ -321,80 +322,84 @@
                 margin-left: 0px !important;
                 margin-right: 63px;
             }
-        
         }
     }
 }
 
-@media screen and (max-width:425px){
-    .head{
-        a{
+@media screen and (max-width: 425px) {
+    .head {
+        a {
             margin-right: -415px;
         }
     }
-    .Parent{
+    .Parent {
         flex-wrap: wrap;
         margin-right: -411px;
-       
-        .sidebar{
-           width: 84% !important;
-           margin-left: 0px !important;
-            &-children1{
-                img{
+        padding: 10px 71px;
+
+        .sidebar {
+             height: 100%;
+             width: 100%;
+            margin-left: 0px !important;
+            &-children1 {
+                img {
                     margin-left: 202px !important;
                     width: 25%;
+                }
+                span {
+                    font-size: 26px;
+                }
             }
-            span{
-                font-size: 26px;
-            }
-        }
-            h1{
+            h1 {
                 font-size: 34px;
             }
             margin-left: -33px;
-            width: 72%;
-            &-children3{
-                button{
+           
+            &-children3 {
+                button {
                     margin-left: 15px;
                     margin-top: 36px;
                     padding: 26px 28px;
                     font-size: 16px;
                 }
-              
+            }
+            &-children2 {
+                p {
+                    font-size: 25px;
+                    margin-top: 50px;
                 }
-                &-children2{
-                    p{
-                      font-size: 25px;
-                      margin-top: 50px;
-                    }
-                    h5{
-                        font-size: 31px;
-                    }
-                  
-                    }
+                h5 {
+                    font-size: 31px;
+                }
             }
         }
-        .Parent2{
-            margin-left: 32px;
-    margin-right: 105px;
- 
-            .FirstChild{
-                h1{
-                    font-size: 19px;
-                }
-            }
-            .SecondChild{
-                h1{
-                    font-size: 13px;
-                }
-                &-btn{
-                    margin-top: 3px;
-                }
-            }
-    &-SaveBtn{
-        margin-left: 41px !important;
-    margin-right: 63px !important;
-    }  
-}
     }
+    .Parent2 {
+       
+        margin-right: 105px;
+        width: 100%;
 
+        .FirstChild {
+            h1 {
+                font-size: 27px !important;
+            }
+        }
+        .SecondChild {
+            h1 {
+                font-size: 19px !important;
+            }
+            &-btn {
+                margin-top: 3px;
+            }
+        }
+        .ThirdChild {
+            h1 {
+                font-size: 18px !important;
+            }
+        }
+        &-SaveBtn {
+            margin-left: 41px !important;
+            margin-right: 63px !important;
+        }
+    }
+}

@@ -288,7 +288,11 @@
         }
         .Parent2 {
       
+
             
+
+            width: 100%;
+
             .SecondChild {
                 h1 {
                     font-size: 14px;
@@ -326,7 +330,7 @@
     }
 }
 
-<<<<<<< HEAD
+
 @media screen and (max-width: 425px) {
     .head {
         a {
@@ -362,41 +366,49 @@
                     margin-top: 36px;
                     padding: 26px 22px;
                     font-size: 16px;
-=======
+
 @media screen and (max-width:425px){
     .head{
         a{
+
+@media screen and (max-width: 425px) {
+    .head {
+        a {
+
             margin-right: -415px;
         }
     }
-    .Parent{
+    .Parent {
         flex-wrap: wrap;
         margin-right: -411px;
-       
-        .sidebar{
-           width: 84% !important;
-           margin-left: 0px !important;
-            &-children1{
-                img{
+        padding: 10px 71px;
+
+        .sidebar {
+             height: 100%;
+             width: 100%;
+            margin-left: 0px !important;
+            &-children1 {
+                img {
                     margin-left: 202px !important;
                     width: 25%;
+                }
+                span {
+                    font-size: 26px;
+                }
             }
-            span{
-                font-size: 26px;
-            }
-        }
-            h1{
+            h1 {
                 font-size: 34px;
             }
             margin-left: -33px;
-            width: 72%;
-            &-children3{
-                button{
+           
+            &-children3 {
+                button {
                     margin-left: 15px;
                     margin-top: 36px;
                     padding: 26px 28px;
                     font-size: 16px;
                 }
+
               
                 }
                 &-children2{
@@ -418,8 +430,9 @@
             .FirstChild{
                 h1{
                     font-size: 19px;
->>>>>>> 782f09a... Some Updates in All project about responsive design and bother things
+
                 }
+
             }
             &-children2 {
                 p {
@@ -430,7 +443,7 @@
                     font-size: 31px;
                 }
             }
-<<<<<<< HEAD
+
         }
     }
     .Parent2 {
@@ -461,12 +474,44 @@
             margin-right: 63px !important;
         }
     }
-=======
+
     &-SaveBtn{
         margin-left: 41px !important;
     margin-right: 63px !important;
     }  
->>>>>>> 782f09a... Some Updates in All project about responsive design and bother things
-}
-    }
 
+}
+
+        }
+
+    }
+    .Parent2 {
+       
+        margin-right: 105px;
+        width: 100%;
+
+        .FirstChild {
+            h1 {
+                font-size: 27px !important;
+            }
+        }
+        .SecondChild {
+            h1 {
+                font-size: 19px !important;
+            }
+            &-btn {
+                margin-top: 3px;
+            }
+        }
+        .ThirdChild {
+            h1 {
+                font-size: 18px !important;
+            }
+        }
+        &-SaveBtn {
+            margin-left: 41px !important;
+            margin-right: 63px !important;
+        }
+    }
+}
+}}}}         

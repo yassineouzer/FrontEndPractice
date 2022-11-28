@@ -27,7 +27,6 @@
                     color: rgba(235, 102, 11, 1);
                     margin-top: 30px;
                     margin-bottom: 20px;
-                  
                 }
                 ul li {
                     color: white;
@@ -41,7 +40,6 @@
                     color: rgba(235, 102, 11, 1);
                     margin-top: 30px;
                     margin-bottom: 20px;
-                
                 }
                 ul li {
                     color: white;
@@ -68,8 +66,8 @@
                             display: block;
                             width: 30px;
                             height: 20px;
-                            color: white;
                             background-repeat: no-repeat;
+                            filter: brightness(1) invert(1);
                         }
                     }
                 }
@@ -82,7 +80,7 @@
                             display: block;
                             width: 30px;
                             height: 20px;
-                            color: white;
+                            filter: brightness(0) invert(1);
                             background-repeat: no-repeat;
                         }
                     }
@@ -96,9 +94,8 @@
                             display: block;
                             width: 30px;
                             height: 20px;
-                            color: white;
                             background-repeat: no-repeat;
-                        
+                            filter: brightness(0) invert(1);
                         }
                     }
                 }
@@ -114,7 +111,7 @@
         top: 30;
         position: absolute;
         left: 0%;
-        bottom: 0%;    
+        bottom: 0%;
     }
 
     // responsive tablette
@@ -123,7 +120,7 @@
 
         &-blockes {
             margin-left: -50px;
-            span{
+            span {
                 width: 68% !important;
             }
             &-second {
@@ -137,21 +134,22 @@
     // responsive mobile
     @media screen and (max-width: 425px) {
         margin-right: -400px;
-        &-children{
-        &-blockes {
-            &-second {
-                margin-left: 64px !important;
-           margin-left: 69px;
-                ul li {
-                    color: white;
+        &-children {
+            &-blockes {
+                &-second {
+                    margin-left: 64px !important;
+                    margin-left: 69px;
+                    ul li {
+                        color: white;
+                    }
                 }
-            }
-            &-third {
-                margin-left: 64px !important;
-                ul li {
-                    color: white;
+                &-third {
+                    margin-left: 64px !important;
+                    ul li {
+                        color: white;
+                    }
                 }
             }
         }
     }
-}}
+}

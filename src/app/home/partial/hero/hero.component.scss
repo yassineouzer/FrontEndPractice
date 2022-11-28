@@ -55,9 +55,12 @@
             padding: 22px 30px;
             color: white;
         }
-        input[type="text"] {
+        input[type=text] {
             width: 700px !important;
             margin-left: 15px;
+            outline: none;
+        }
+        &-selec{
             outline: none;
         }
     }
@@ -90,7 +93,7 @@
         }
         .conta {
             margin-left: 20px;
-            input[type="text"] {
+            input[type=text] {
                 width: 250px !important;
                 outline: none;
             }

@@ -274,7 +274,7 @@
             width: 700px;
             &-children1 {
                 form {
-                    input[type="checkbox"] {
+                    input[type=checkbox] {
                         margin-left: -34px;
                     }
                     .title {
@@ -371,5 +371,5 @@
                 }
             }}
         }
-  }
+ }
 }

@@ -134,6 +134,7 @@
     // responsive mobile
     @media screen and (max-width: 425px) {
         margin-right: -400px;
+<<<<<<< HEAD
         &-children {
             &-blockes {
                 &-second {
@@ -142,6 +143,15 @@
                     ul li {
                         color: white;
                     }
+=======
+        &-children{
+        &-blockes {
+            &-second {
+                margin-left: 64px !important;
+           margin-left: 69px;
+                ul li {
+                    color: white;
+>>>>>>> 782f09a... Some Updates in All project about responsive design and bother things
                 }
                 &-third {
                     margin-left: 64px !important;

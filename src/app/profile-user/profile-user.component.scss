@@ -326,6 +326,7 @@
     }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 425px) {
     .head {
         a {
@@ -361,6 +362,63 @@
                     margin-top: 36px;
                     padding: 26px 22px;
                     font-size: 16px;
+=======
+@media screen and (max-width:425px){
+    .head{
+        a{
+            margin-right: -415px;
+        }
+    }
+    .Parent{
+        flex-wrap: wrap;
+        margin-right: -411px;
+       
+        .sidebar{
+           width: 84% !important;
+           margin-left: 0px !important;
+            &-children1{
+                img{
+                    margin-left: 202px !important;
+                    width: 25%;
+            }
+            span{
+                font-size: 26px;
+            }
+        }
+            h1{
+                font-size: 34px;
+            }
+            margin-left: -33px;
+            width: 72%;
+            &-children3{
+                button{
+                    margin-left: 15px;
+                    margin-top: 36px;
+                    padding: 26px 28px;
+                    font-size: 16px;
+                }
+              
+                }
+                &-children2{
+                    p{
+                      font-size: 25px;
+                      margin-top: 50px;
+                    }
+                    h5{
+                        font-size: 31px;
+                    }
+                  
+                    }
+            }
+        }
+        .Parent2{
+            margin-left: 32px;
+    margin-right: 105px;
+ 
+            .FirstChild{
+                h1{
+                    font-size: 19px;
+>>>>>>> 782f09a... Some Updates in All project about responsive design and bother things
                 }
             }
             &-children2 {
@@ -372,6 +430,7 @@
                     font-size: 31px;
                 }
             }
+<<<<<<< HEAD
         }
     }
     .Parent2 {
@@ -402,4 +461,12 @@
             margin-right: 63px !important;
         }
     }
+=======
+    &-SaveBtn{
+        margin-left: 41px !important;
+    margin-right: 63px !important;
+    }  
+>>>>>>> 782f09a... Some Updates in All project about responsive design and bother things
 }
+    }
+
